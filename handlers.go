@@ -35,8 +35,7 @@ func ReserveHandler(c tele.Context) error {
 
 func ConnecHandler(c tele.Context) error {
 	master := setMaster()
-	username := c.Sender().Username
-	botInstance.Send(&master, "@"+username+" Хочет связаться")
+	botInstance.Send(&master, "-----")
 	return c.Send("ok")
 }
 
