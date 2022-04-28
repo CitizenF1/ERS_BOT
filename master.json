@@ -1,11 +1,11 @@
 {
- "id": 478356957,
- "first_name": "Azamat",
- "last_name": "",
- "username": "CTZNF1",
- "language_code": "en",
- "is_bot": false,
- "can_join_groups": false,
- "can_read_all_group_messages": false,
- "supports_inline_queries": false
+    "id": 589942113,
+    "first_name": "Ерсултан",
+    "last_name": "Кабылбеков",
+    "username": "ykabylbekov",
+    "language_code": "ru",
+    "is_bot": false,
+    "can_join_groups": false,
+    "can_read_all_group_messages": false,
+    "supports_inline_queries": false
 }

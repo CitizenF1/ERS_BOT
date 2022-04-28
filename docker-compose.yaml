@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  db:
+    container_name: mongo
+    image: 'bitnami/mongodb:latest'
+    volumes:
+      - 'mongodb_data:/bitnami'
+    logging:
+      driver: none
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - db
+
+volumes:
+  mongodb_data:
+    driver: local
